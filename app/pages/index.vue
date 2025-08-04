@@ -6,12 +6,13 @@
       >
         <div class="flex-1 order-2 lg:order-1 text-center lg:text-left">
           <h1 class="text-4xl lg:text-6xl font-extrabold mb-6 text-balance">
-            Master the Kitchen with Ease: Unleash Your Inner Chef Today!
+            Cook with Confidence: Find Recipes That Fit Your Lifestyle
           </h1>
           <p class="text-xl lg:text-2xl mb-8 text-balance">
-            Discover recipes helping you to find the easiest way to cook.
+            Explore easy, delicious meals made for home cooks of all levels.
+            Let&apos;s get cooking!
           </p>
-          <MyButton to="/recipes" label="Browse Recipes" />
+          <MyButton to="/recipes" label="See Our Recipes" />
         </div>
         <div class="flex-1 order-1 lg:order-2">
           <NuxtImg
