@@ -11,7 +11,7 @@
           <p class="text-xl lg:text-2xl mb-8 text-balance">
             Discover recipes helping you to find the easiest way to cook.
           </p>
-          <MyButton to="#recipes" label="Browse Recipes" />
+          <MyButton to="/recipes" label="Browse Recipes" />
         </div>
         <div class="flex-1 order-1 lg:order-2">
           <NuxtImg
