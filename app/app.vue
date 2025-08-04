@@ -1,5 +1,7 @@
 <template>
-  <p class="container font-Montserrat">
-    makan
-  </p>
+  <div class="container font-Montserrat">
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </div>
 </template>
