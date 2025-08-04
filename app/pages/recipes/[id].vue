@@ -1,33 +1,3 @@
-<script setup lang="ts">
-import type { Recipe } from "~/types/types";
-
-const { id } = useRoute().params;
-
-const { data, error } = await useFetch<Recipe>(
-  `https://dummyjson.com/recipes/${id}`
-);
-
-if (error.value) {
-  throw createError({
-    statusCode: error.value?.statusCode,
-    statusMessage: error.value?.statusMessage,
-  });
-}
-
-useSeoMeta({
-  title: data.value?.name,
-  description: "Recipes for you to cook!",
-  ogTitle: data.value?.name,
-  ogDescription: "Recipes for you to cook!",
-  ogImage: data.value?.image,
-  ogUrl: `http:localhost:3000/recipes/${data.value?.id}`,
-  twitterTitle: data.value?.name,
-  twitterDescription: "Recipes for you to cook!",
-  twitterImage: data.value?.image,
-  twitterCard: "summary",
-});
-</script>
-
 <template>
   <div class="flex flex-col max-w-screen-lg container py-20">
     <!-- Header -->
@@ -35,19 +5,16 @@ useSeoMeta({
       <h2 class="text-5xl mb-4 font-semibold">{{ data?.name }}</h2>
       <div class="flex gap-4 text-xl mb-6">
         <div class="flex items-center gap-1">
-          <UIcon
-            name="i-mdi-clock-time-eight-outline"
-            class="text-dodgeroll-gold-500"
-          />
-          <span>{{ data?.cookTimeMinutes }}</span>
+          <span class="text-lg">⏱️</span>
+          <span>{{ data?.cookTimeMinutes }} mins</span>
         </div>
         <div class="flex items-center gap-1">
-          <UIcon name="i-mdi-fire" class="text-dodgeroll-gold-500" />
-          <span>{{ data?.caloriesPerServing }}</span>
+          <span class="text-lg">🔥</span>
+          <span>{{ data?.caloriesPerServing }} calories</span>
         </div>
         <div class="flex items-center gap-1">
-          <UIcon name="i-mdi-star" class="text-dodgeroll-gold-500" />
-          <span>{{ data?.rating }} ({{ data?.reviewCount }})</span>
+          <span class="text-lg">⭐</span>
+          <span>{{ data?.rating }} ({{ data?.reviewCount }}) reviews</span>
         </div>
       </div>
       <hr />
@@ -99,3 +66,33 @@ useSeoMeta({
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+import type { Recipe } from "~/types/types";
+
+const { id } = useRoute().params;
+
+const { data, error } = await useFetch<Recipe>(
+  `https://dummyjson.com/recipes/${id}`
+);
+
+if (error.value) {
+  throw createError({
+    statusCode: error.value?.statusCode,
+    statusMessage: error.value?.statusMessage,
+  });
+}
+
+useSeoMeta({
+  title: data.value?.name,
+  description: "Recipes for you to cook!",
+  ogTitle: data.value?.name,
+  ogDescription: "Recipes for you to cook!",
+  ogImage: data.value?.image,
+  ogUrl: `http:localhost:3000/recipes/${data.value?.id}`,
+  twitterTitle: data.value?.name,
+  twitterDescription: "Recipes for you to cook!",
+  twitterImage: data.value?.image,
+  twitterCard: "summary",
+});
+</script>

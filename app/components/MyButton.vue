@@ -1,10 +1,3 @@
-<script setup lang="ts">
-defineProps<{
-  label?: string;
-  to?: string;
-}>();
-</script>
-
 <template>
   <NuxtLink
     :to="to"
@@ -13,3 +6,10 @@ defineProps<{
     <slot>{{ label }}</slot>
   </NuxtLink>
 </template>
+
+<script setup lang="ts">
+defineProps<{
+  label?: string;
+  to?: string;
+}>();
+</script>
