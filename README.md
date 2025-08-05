@@ -1,6 +1,8 @@
-A modern recipe discovery platform built with Nuxt 3, featuring beautiful UI design and responsive layout. Discover delicious recipes from around the world with an intuitive and engaging user experience.
+# MyRecipes 🍳
 
-![MyRecipes Preview](https://img.shields.io/badge/Nuxt-3.0+-00DC82?style=for-the-badge&logo=nuxt.js&logoColor=white)
+A modern recipe discovery platform built with Nuxt 4, featuring beautiful UI design and responsive layout. Discover delicious recipes from around the world with an intuitive and engaging user experience.
+
+![MyRecipes Preview](https://img.shields.io/badge/Nuxt-4.0+-00DC82?style=for-the-badge&logo=nuxt.js&logoColor=white)
 ![Vue](https://img.shields.io/badge/Vue-3.0+-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
