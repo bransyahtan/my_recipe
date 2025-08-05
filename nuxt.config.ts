@@ -15,16 +15,15 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: 'My Recipe - Resep Masakan Indonesia',
+      title: 'MyRecipes - Discover Delicious Recipes',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: 'Aplikasi resep masakan Indonesia yang lezat dan mudah dibuat' },
-        { name: 'keywords', content: 'resep, masakan, indonesia, makanan, cooking' }
+        { name: 'description', content: 'Discover delicious recipes from around the world. From quick weeknight dinners to impressive weekend feasts, we\'ve got you covered.' },
+        { name: 'keywords', content: 'recipes, cooking, food, meals, cuisine, dishes, cooking tips, meal planning' }
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/icon.png' },
-
       ]
     }
   }
