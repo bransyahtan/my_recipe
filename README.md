@@ -13,34 +13,34 @@ A modern recipe discovery platform built with Nuxt 3, featuring beautiful UI des
 
 #### Homepage
 
-![Homepage](@home.png)
+![Homepage](/screenshot/home.png)
 _Modern hero section with gradient background, recipe carousel, and engaging call-to-action_
 
 #### All Recipes
 
-![All Recipes](@all_menus.png)
+![All Recipes](/screenshot/all_menus.png)
 _Browse through a wide variety of delicious dishes with detailed recipe cards_
 
 #### Recipe Carousel
 
-![Recipe Carousel](@carousel.png)
+![Recipe Carousel](/screenshot/carousel.png)
 _Interactive carousel showcasing featured recipes with smooth navigation_
 
 #### About Page
 
-![About Page](@about.png)
+![About Page](/screenshot/about.png)
 _Learn more about MyRecipes with beautiful layout and engaging content_
 
 ### Mobile Views
 
 #### Mobile Homepage
 
-![Mobile Homepage](@mobile_home.png)
+![Mobile Homepage](/screenshot/mobile_home.png)
 _Mobile View_
 
 #### Mobile Navigation
 
-![Mobile Navigation](@mobile_navbar.png)
+![Mobile Navigation](/screenshot/mobile_navbar.png)
 _Mobile View_
 
 ## ✨ Features
@@ -156,8 +156,9 @@ my_recipe/
 │   └── types/              # TypeScript types
 │       └── types.ts        # Recipe and API types
 ├── public/                 # Static assets
-├── nuxt.config.ts         # Nuxt configuration
-└── tailwind.config.js     # Tailwind CSS configuration
+│   └── screenshot/         # Screenshot
+├── nuxt.config.ts          # Nuxt configuration
+└── tailwind.config.js      # Tailwind CSS configuration
 ```
 
 ## 🎨 Key Components
