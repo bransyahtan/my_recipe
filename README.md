@@ -162,36 +162,6 @@ The app integrates with external APIs to fetch recipe data:
 - **Touch-friendly** interactions
 - **Optimized images** for all devices
 
-## 🚀 Deployment
-
-Check out the [Nuxt deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-
-### Recommended Platforms:
-
-- **Vercel** - Zero-config deployment
-- **Netlify** - Easy static site hosting
-- **Railway** - Full-stack deployment
-- **DigitalOcean App Platform** - Scalable hosting
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [Nuxt 3](https://nuxt.com/) for the amazing framework
-- [Tailwind CSS](https://tailwindcss.com/) for the utility-first styling
-- [Vue3 Carousel](https://github.com/ismail9k/vue3-carousel) for the carousel component
-- [DummyJSON](https://dummyjson.com/) for the recipe API data
-
 ---
 
-Made with ❤️ and ☕ by [Your Name]
+Made with ❤️ and ☕ by Sultan Bransyah
