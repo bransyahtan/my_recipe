@@ -1,5 +1,3 @@
-# MyRecipes 🍳
-
 A modern recipe discovery platform built with Nuxt 3, featuring beautiful UI design and responsive layout. Discover delicious recipes from around the world with an intuitive and engaging user experience.
 
 ![MyRecipes Preview](https://img.shields.io/badge/Nuxt-3.0+-00DC82?style=for-the-badge&logo=nuxt.js&logoColor=white)
