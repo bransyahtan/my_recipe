@@ -13,34 +13,34 @@ A modern recipe discovery platform built with Nuxt 3, featuring beautiful UI des
 
 #### Homepage
 
-![Homepage](/screenshot/home.png)
+![Homepage](public/screenshot/home.png)
 _Modern hero section with gradient background, recipe carousel, and engaging call-to-action_
 
 #### All Recipes
 
-![All Recipes](/screenshot/all_menus.png)
+![All Recipes](public/screenshot/all_menus.png)
 _Browse through a wide variety of delicious dishes with detailed recipe cards_
 
 #### Recipe Carousel
 
-![Recipe Carousel](/screenshot/carousel.png)
+![Recipe Carousel](public/screenshot/carousel.png)
 _Interactive carousel showcasing featured recipes with smooth navigation_
 
 #### About Page
 
-![About Page](/screenshot/about.png)
+![About Page](public/screenshot/about.png)
 _Learn more about MyRecipes with beautiful layout and engaging content_
 
 ### Mobile Views
 
 #### Mobile Homepage
 
-![Mobile Homepage](/screenshot/mobile_home.png)
+![Mobile Homepage](public/screenshot/mobile_home.png)
 _Mobile View_
 
 #### Mobile Navigation
 
-![Mobile Navigation](/screenshot/mobile_navbar.png)
+![Mobile Navigation](public/screenshot/mobile_navbar.png)
 _Mobile View_
 
 ## ✨ Features
