@@ -17,10 +17,11 @@
               class="absolute inset-0 bg-gradient-to-r from-orange-400 to-red-500 rounded-xl blur-sm opacity-60 group-hover:opacity-80 transition-opacity"
             ></div>
             <NuxtImg
-              preset="avatar"
+              densities="x1"
+              format="webp"
               src="/icon.png"
               alt="My Recipes Logo"
-              class="relative rounded-xl shadow-lg lg:w-12"
+              class="relative rounded-xl shadow-lg image-40"
             />
           </div>
           <div class="flex flex-col">
@@ -190,6 +191,11 @@ const closeMobileMenu = () => {
 </script>
 
 <style scoped>
+.image-40 {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
 .navbar {
   position: sticky;
   top: 0;
