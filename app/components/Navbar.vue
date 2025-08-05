@@ -17,9 +17,7 @@
               class="absolute inset-0 bg-gradient-to-r from-orange-400 to-red-500 rounded-xl blur-sm opacity-60 group-hover:opacity-80 transition-opacity"
             ></div>
             <NuxtImg
-              sizes="40px"
-              densities="x1"
-              format="webp"
+              preset="avatar"
               src="/icon.png"
               alt="My Recipes Logo"
               class="relative rounded-xl shadow-lg lg:w-12"
