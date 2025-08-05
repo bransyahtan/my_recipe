@@ -57,6 +57,19 @@ const { data, error } = await useFetch<RecipeResponse>(
   "https://dummyjson.com/recipes?limit=30"
 );
 
+useSeoMeta({
+  title: "MyRecipes",
+  description: "Recipes for you to cook!",
+  ogTitle: "MyRecipes",
+  ogDescription: "Recipes for you to cook!",
+  ogImage: "/food.png",
+  ogUrl: `${useRequestURL().origin}/recipes`,
+  twitterTitle: "MyRecipes",
+  twitterDescription: "Recipes for you to cook!",
+  twitterImage: "/food.png",
+  twitterCard: "summary",
+});
+
 const recipesPerPage = 6;
 const currentPage = ref(1);
 

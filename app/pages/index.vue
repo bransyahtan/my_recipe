@@ -126,15 +126,15 @@ const { data, error } = await useFetch<RecipeResponse>(
 );
 
 useSeoMeta({
-  title: "Nuxtcipes",
+  title: "MyRecipes",
   description: "Recipes for you to cook!",
-  ogTitle: "Nuxtcipes",
+  ogTitle: "MyRecipes",
   ogDescription: "Recipes for you to cook!",
-  ogImage: "/nuxt-course-hero.png",
-  ogUrl: `http:localhost:3000`,
-  twitterTitle: "Nuxtcipes",
+  ogImage: "/food.png",
+  ogUrl: useRequestURL().origin,
+  twitterTitle: "MyRecipes",
   twitterDescription: "Recipes for you to cook!",
-  twitterImage: "/nuxt-course-hero.png",
+  twitterImage: "/food.png",
   twitterCard: "summary",
 });
 </script>
