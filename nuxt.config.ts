@@ -8,6 +8,34 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/image'
   ],
+  image: {
+    format: ['webp', 'avif', 'jpeg'],
+    quality: 80,
+    screens: {
+      xs: 320,
+      sm: 640,
+      md: 768,
+      lg: 1024,
+      xl: 1280,
+      xxl: 1536,
+    },
+    presets: {
+      avatar: {
+        modifiers: {
+          format: 'webp',
+          width: 40,
+          height: 40,
+        }
+      },
+      logo: {
+        modifiers: {
+          format: 'webp',
+          width: 48,
+          height: 48,
+        }
+      }
+    }
+  },
   googleFonts: {
     families: {
       Montserrat: true,
