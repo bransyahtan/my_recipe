@@ -13,7 +13,7 @@
                 class="absolute inset-0 bg-gradient-to-r from-orange-400 to-red-500 rounded-xl blur-sm opacity-60"
               ></div>
               <NuxtImg
-                width="48px"
+                sizes="48px"
                 densities="x1"
                 format="webp"
                 src="/icon.png"
