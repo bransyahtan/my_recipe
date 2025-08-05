@@ -7,6 +7,42 @@ A modern recipe discovery platform built with Nuxt 3, featuring beautiful UI des
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
+## 📸 Screenshots
+
+### Desktop Views
+
+#### Homepage
+
+![Homepage](@home.png)
+_Modern hero section with gradient background, recipe carousel, and engaging call-to-action_
+
+#### All Recipes
+
+![All Recipes](@all_menus.png)
+_Browse through a wide variety of delicious dishes with detailed recipe cards_
+
+#### Recipe Carousel
+
+![Recipe Carousel](@carousel.png)
+_Interactive carousel showcasing featured recipes with smooth navigation_
+
+#### About Page
+
+![About Page](@about.png)
+_Learn more about MyRecipes with beautiful layout and engaging content_
+
+### Mobile Views
+
+#### Mobile Homepage
+
+![Mobile Homepage](@mobile_home.png)
+_Mobile View_
+
+#### Mobile Navigation
+
+![Mobile Navigation](@mobile_navbar.png)
+_Mobile View_
+
 ## ✨ Features
 
 - 🎨 **Modern UI Design** - Beautiful gradient backgrounds and smooth animations
