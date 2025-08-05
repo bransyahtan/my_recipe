@@ -13,10 +13,11 @@
                 class="absolute inset-0 bg-gradient-to-r from-orange-400 to-red-500 rounded-xl blur-sm opacity-60"
               ></div>
               <NuxtImg
-                preset="logo"
+                densities="x1"
+                format="webp"
                 src="/icon.png"
                 alt="My Recipes Logo"
-                class="relative rounded-xl shadow-lg"
+                class="relative rounded-xl shadow-lg image-48"
               />
             </div>
             <div>
@@ -199,6 +200,11 @@
 </script>
 
 <style scoped>
+.image-48 {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
 /* Custom scrollbar for newsletter input */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
