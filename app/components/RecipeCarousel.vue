@@ -70,6 +70,9 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
   transition: all 0.3s ease !important;
+  border-radius: 50% !important;
+  width: 40px !important;
+  height: 40px !important;
 }
 
 .carousel__prev:hover,
