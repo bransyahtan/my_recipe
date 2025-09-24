@@ -1,4 +1,4 @@
-# MyRecipes 🍳
+# MyRecipes 
 
 A modern recipe discovery platform built with Nuxt 4, featuring beautiful UI design and responsive layout. Discover delicious recipes from around the world with an intuitive and engaging user experience.
 
